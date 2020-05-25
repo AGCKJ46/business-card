@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    background: #2C2141;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,19 +18,24 @@ body{
 .main{
     background: #F8F8F8;
     border-radius: 16px;
-    width: 624px;
+    width: 824px;
     margin: 16px;
     padding: 16px;
 }
 
 .person{
-
+    display: flex;
+    align-items: flex-start;
 }
 
 .person__description{
     font-size: 16px;
     line-height: 22px;
     margin: 0;
+}
+
+.person__description--with-margin{
+    margin-bottom: 24px;
 }
 
 .person__info{
@@ -46,6 +51,11 @@ body{
     font-size: 36px;
     font-weight: normal;
     margin: 0;
+}
+
+.person__picture{
+    margin-right: 32px;
+    min-width: 150px;
 }
 
 .person__position{
